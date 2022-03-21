@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar{
+    background: #f4f4f4;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.con1,.con2,.con3,.con4{
+    background: #f4f4f4;
+    width: 120px;
+    border-left: 2px solid rgb(223, 225, 226) ;
+    font-size: small;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    font-family: "brother-1816",sans-serif;
+    text-align: center;
+
+}
+.con1{
+    flex: 8;
+    font-size: 15px;
+}
+
+.con4{
+    flex: 2;
+    display: flex;
+}
+
+.con2{
+    display: flex;
+}
+
+.con3{
+    display: flex;
+}
+
+.wish{
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.cart{
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.user{
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+
+.rolex{
+    width: 90px;
+    height: 60px;
+    padding-top: 10px;
+    border: 2px solid rgba(208, 209, 209, 0.404);
+    margin-left:300px; 
+}
+
+.top-bar-2{
+    background: white;
+    border-bottom: 1px solid rgb(223, 225, 226) ;
+    display: flex;
+    height: 95px;
+    padding-left: 20px;
+}
+
+.bar2-child1,.bar2-child2,.bar2-child3{
+    background: #fff;
+    flex: 1;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.bar2-child1{
+    padding-top: 30px;
+}
+
+.bar2-child3{
+    padding-top: 15px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.bar2-child2{
+    font-weight: 400px;
+    font-style: italic ;
+    font-size: 22px;
+    font-family:"playfair isplay";
+    color: #9d0000;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-top: 30px;
+
+}
+
+.nav-bar{
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(223, 225, 226) ;
+    display: flex;
+    align-items: center;
+}
+
+.nav1,.nav2,.nav3,.nav4,.nav5,.nav6,.nav7,.nav8,.nav9,.nav10{
+    flex: 1;
+    color: #404040;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 22px;
+    letter-spacing: .5px;
+    font-family: "brother-1816",sans-serif;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.nav10{
+    padding-top: 5px;
+}
+
+.nav1{
+    text-align: right;
+}
+
+.nav3{
+    text-align: left;
+}
+
+.nav4{
+    text-align: left;
+}
+
+.image1{
+    width: 87%;
+    border-bottom: 5px solid #9d0000;
+}
+.watch-top{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(175, 174, 174, 0.322);
+}
+
+.photo{
+    width: 312px;
+    height: 380px;
+}
+
+.card{
+    height: 460px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b1b0b057;
+}
+
+.photo-head{
+    height: 70px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.watch{
+    width: 200px;
+    height: 300px;
+}
+
+.featured{
+    height: 460px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-head{
+    height: 70px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+
+
