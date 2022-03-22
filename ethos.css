@@ -188,8 +188,8 @@ p{
 }
 
 .watch{
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
 }
 
 .featured{
@@ -199,12 +199,84 @@ p{
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
-.feature-head{
+.show-head{
     height: 70px;
     padding-top: 50px;
     padding-left: 100px;
+}
+
+.brands{
+    padding-left: 100px;
+    border-top: #d8d7d7 solid;
+    padding-top: 20px;
+}
+
+.editor-pic{
+    width: 100%;
+    height: 550px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.pic img{
+    height: 400px;
+    width: 315px;
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.editor-head{
+    height: 70px;
+    padding-top: 50px;
+    padding-left: 100px;
+    border-top: #d8d7d7 solid;
+}
+
+.most-read{
+    display: flex;
+    justify-content: center;
+}
+
+.most-read-left{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+.read-con{
+    width: 200px;
+}
+
+.most-read-right{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: #161616;
+}
+
+.number{
+    color: white;
+    font-size: 20px;padding: 20px;
+    
+}
+
+.footer-bot{
+    height: 300px;
+    width: 100%;
+    background: #fff;
 }
 
 
